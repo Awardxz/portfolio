@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+:root {
+    --backgroundColorBlack : #272727;
+    --backgroundColorContainer : #1B1B1B;
+    --white : #ffffff;
+}
+body {
+   background-color: var(--backgroundColorBlack) !important;
+   font-family: "Lato", sans-serif !important;
+   font-weight: 100 !important;
+   font-style: normal;
+   padding: 0;
+   margin: 0;
+}
+
+.OutsideContainer{
+    background-color: var(--backgroundColorContainer) !important;
+    color: white;
+    display: flex;
+    justify-content: center !important;
+    padding: 100px;
+ }
+ 
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 25.5em;
+
+}
+
+
+.nameText{
+    font-size: 55px;
+    font-weight: 400;
+    height: 10px;
+}
+
+
+.Portfolio{
+    display: flex !important;
+    align-content: center !important;
+    gap: 20px !important;
+}
+
+.line{
+   width: 25.9em;
+   border: 1px rgb(255, 255, 255) solid;
+   margin-top: 15px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 250;
+}
+
+
+a{
+    color: white !important;
+    text-decoration: none !important;
+    border-bottom: 0px white solid;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.linkHover:hover{
+    transform: scale(1.1);
+    border-bottom: 1px white solid;
+}
+
+
+.OutsideContainer1{
+    display: flex;
+    justify-content: center;
+    background-color: #202020;
+    color: var(--white);
+    text-align: center;
+    
+}
+
+.container1{
+    width: 500px;
+    padding-bottom: 20px;
+}
+
+.LangLink{
+    font-size: 50px;
+}
+
+.OutsideContainer2{
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    text-align: center;
+    
+}
+
+.container2{
+    width: 600px;
+    padding-bottom: 20px;
+}
+
+
+
+.fontFix{
+    font-size: 18px; 
+    font-weight: 300;
+}
+
+.card {
+    --border-radius: 0.75rem;
+    --primary-color: #7257fa;
+    --secondary-color: #3c3852;
+    width: 580px;
+    font-family: "Arial";
+    padding: 1rem;
+
+    border-radius: var(--border-radius);
+    background: #313131;
+
+    position: relative;
+  }
+  
+  .card {
+    background-color: #1B1B1B;
+    color: #ffffff;
+    border-radius: 2px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+.card__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.card__content {
+    font-size: 0.86rem;
+}
+
+.card__developer {
+    font-size: 0.8rem;
+    color: #bbb;
+}
+
+.card__link {
+    font-size: 0.9rem;
+    color: #0080ff !important;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.card__link:hover {
+    color: #00bfff;
+}
+
+.card__arrow:hover {
+    color: #00bfff;
+}
+
+.OutsideContainer3{
+    background-color: var(--backgroundColorContainer);
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    text-align: center;
+    
+}
+
+.container3{
+    width: 600px;
+    padding-bottom: 20px;
+}
+
+.card2{
+    background: #222222;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.OutsideContainer4{
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    text-align: center;
+    
+}
+
+.container4{
+    width: 600px;
+    padding-bottom: 20px;
+}
+
+
+.contact-email{
+    font-size: 50px;
+}
