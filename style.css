@@ -200,6 +200,13 @@ a{
     gap: 15px;
 }
 
+.card-container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
 .OutsideContainer4{
     display: flex;
     justify-content: center;
